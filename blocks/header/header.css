@@ -1,32 +1,17 @@
+@import url(./__russia-pic/header__russia-pic.css);
+@import url(./__lang-links/header__lang-links.css);
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_type/_ru/header__lang-link_type_ru.css);
+
 .header {
   display: flex;
   flex: 1 1 auto;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  
+
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 24px;
   line-height: 1.16;
   font-weight: normal;
-  color: #fff;
-}
-
-.header__russia-pic {
-  width: 100%;
-  height: auto;
-}
-
-.header__lang-links {
-  display: flex;
-}
-
-.header__lang-link {
-  color: inherit;
-  text-decoration: none;
-}
-
-.header__lang-link_type_ru {
-  margin-right: 18px;
-  border-bottom: 1px solid;
 }
