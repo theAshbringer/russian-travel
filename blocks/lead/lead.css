@@ -1,4 +1,5 @@
 .lead {
+  width: 100%;
   display: flex;
   flex: 1 1 auto;
   margin: 0 auto;
