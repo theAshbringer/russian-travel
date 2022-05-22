@@ -1,3 +1,11 @@
+@import url(./__title/place__title.css);
+@import url(./__image/place__image.css);
+@import url(./__website/place__website.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__link/place__link.css);
+@import url(./__text/place__text.css);
+@import url(./__paragraph/place__paragraph.css);
+
 .place {
   width: 100%;
   display: grid;
@@ -6,54 +14,4 @@
   "title website"
   "image text";
   gap: 48px 40px;
-}
-
-.place__title {
-  margin: 0;
-  font-size: 72px;
-  line-height: 1.05;
-  grid-area: title;
-}
-
-.place__image {
-  width: 100%;
-  object-fit: cover;
-  grid-area: image;
-}
-
-.place__website {
-  align-self: end;
-  grid-area: website;
-}
-
-.place__url-heading {
-  margin: 0;
-  margin-bottom: 12px;
-  color: #aaa;
-  font-size: 12px;
-  font-weight: normal;
-  line-height: 1;
-  letter-spacing: 2px
-}
-
-.place__link {
-  font-size: 18px;
-  line-height: 1.2;
-  color: #fff;
-  text-decoration: none;
-}
-
-.place__text {
-  grid-area: text;
-}
-
-.place__paragraph {
-  margin: 0;
-  margin-bottom: 26px;
-  font-size: 18px;
-  line-height: 1.6;
-}
-
-.place__paragraph:last-of-type {
-  margin-bottom: 0;
 }
