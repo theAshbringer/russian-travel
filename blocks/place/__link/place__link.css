@@ -3,4 +3,10 @@
   line-height: 1.2;
   color: #fff;
   text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.3s cubic-bezier(1, 0.21, 0, 0.96);
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }
