@@ -1,3 +1,5 @@
 .content {
-  
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr);
+  gap: 92px;
 }
