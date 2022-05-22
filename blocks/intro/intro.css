@@ -1,14 +1,33 @@
 .intro {
+  padding-left: calc((50%) - 984px/2);
+  max-width: 690px;
+}
+
+.intro__title {
+  margin: 0;
+  margin-bottom: 40px;
   font-size: 54px;
   line-height: 1.07;
 }
 
-.intro__title
+.intro_subtitle {
+  margin: 0;
+  margin-bottom: 33px;
+  font-size: 16px;
+  line-height: 1.63;
+}
 
-.intro_subtitle
+.intro__list {
+  padding-left: 0;
+  list-style: none;
+}
 
-.intro__list
+.intro__list-item {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: bold;
+}
 
-.intro__list-item
-
-.intro__number
+.intro__number {
+  font-weight: normal;
+}
