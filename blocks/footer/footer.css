@@ -1,3 +1,35 @@
 .footer {
-  
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__links {
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  list-style: none;
+}
+
+.footer__link {
+  margin-right: 16px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.12;
+  font-weight: normal;
+  opacity: 1;
+  transition: opacity 0.3s cubic-bezier(1, 0.21, 0, 0.96);
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}
+
+.footer__copyright {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: normal;
 }
