@@ -1,33 +1,10 @@
+@import url(./__title/intro__title.css);
+@import url(./__subtitle/intro__subtitle.css);
+@import url(./__list/intro__list.css);
+@import url(./__list-item/intro__list-item.css);
+@import url(./__number/intro__number.css);
+
 .intro {
   padding-left: calc((50%) - 984px/2);
   max-width: 690px;
-}
-
-.intro__title {
-  margin: 0;
-  margin-bottom: 40px;
-  font-size: 54px;
-  line-height: 1.07;
-}
-
-.intro_subtitle {
-  margin: 0;
-  margin-bottom: 33px;
-  font-size: 16px;
-  line-height: 1.63;
-}
-
-.intro__list {
-  padding-left: 0;
-  list-style: none;
-}
-
-.intro__list-item {
-  font-size: 12px;
-  line-height: 1.5;
-  font-weight: bold;
-}
-
-.intro__number {
-  font-weight: normal;
 }
