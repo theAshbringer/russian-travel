@@ -4,7 +4,7 @@
 @import url(./__lang-link/_type/_ru/header__lang-link_type_ru.css);
 
 .header {
-  margin: 0 48px;
+  margin-bottom: 56px;
   display: flex;
   flex: 1 1 auto;
   flex-wrap: wrap;
