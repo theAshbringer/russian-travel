@@ -16,9 +16,17 @@
   gap: 48px 40px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .place {
     grid-template-columns: minmax(340px, 440px) minmax(352px, 1fr);
-    gap: 27px 32px;
+    gap: 48px 32px;
   }
 }
+
+@media screen and (min-width: 560px) and (max-width: 768px) {
+  .place {
+    grid-template-columns: minmax(170px, 340px) minmax(300px, 1fr);
+    gap: 48px 28px;
+  }
+}
+
