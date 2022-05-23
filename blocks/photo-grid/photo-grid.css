@@ -18,3 +18,10 @@
   }
 }
 
+@media screen and (max-width: 615px) {
+  .photo-grid {
+    max-width: none;
+    width: 100%;
+    gap: 12px;
+  }
+}
