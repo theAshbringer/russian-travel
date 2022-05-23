@@ -11,3 +11,10 @@
     gap: 88px;
   }
 }
+
+@media screen and (max-width: 560px) {
+  .content {
+    margin-bottom: 64px;
+    gap: 64px;
+  }
+}
