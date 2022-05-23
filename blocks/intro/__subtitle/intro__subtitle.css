@@ -4,3 +4,9 @@
   font-size: 16px;
   line-height: 1.63;
 }
+
+@media screen and (max-width: 424px) {
+  .intro_subtitle {
+    margin-bottom: 34px;
+  }
+}
