@@ -9,9 +9,16 @@
 .place {
   width: 100%;
   display: grid;
-  grid-template-columns: minmax(440px, 460px) minmax(100px, 1fr);
+  grid-template-columns: minmax(440px, 460px) minmax(456px, 1fr);
   grid-template-areas: 
   "title website"
   "image text";
   gap: 48px 40px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .place {
+    grid-template-columns: minmax(340px, 440px) minmax(352px, 1fr);
+    gap: 27px 32px;
+  }
 }
