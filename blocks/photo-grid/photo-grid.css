@@ -3,5 +3,18 @@
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  gap: 1rem;
+  gap: 16px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .photo-grid {
+    gap: 14px;
+  }
+}
+
+@media screen and (min-width: 615px) and (max-width: 940px) {
+  .photo-grid {
+    gap: 16px;
+  }
+}
+
