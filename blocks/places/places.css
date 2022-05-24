@@ -5,3 +5,10 @@
   grid-template-columns: minmax(min-content, 1fr);
   gap: 80px;
 }
+
+@media screen and (max-width: 560px) {
+  .places {
+    gap: 50px;
+    margin-bottom: 2px;
+  }
+}

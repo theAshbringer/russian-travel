@@ -10,9 +10,9 @@
   width: 100%;
   display: grid;
   grid-template-columns: minmax(440px, 460px) minmax(456px, 1fr);
-  grid-template-areas: 
-  "title website"
-  "image text";
+  grid-template-areas:
+    "title website"
+    "image text";
   gap: 48px 40px;
 }
 
@@ -30,3 +30,14 @@
   }
 }
 
+@media screen and (max-width: 560px) {
+  .place {
+    grid-template-columns: minmax(10px, 1fr);
+    grid-template-areas:
+      "title"
+      "website"
+      "image"
+      "text";
+    gap: 32px;
+  }
+}
