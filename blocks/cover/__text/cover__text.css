@@ -1,0 +1,24 @@
+.cover__text {
+
+  /* width: 100%; */
+  margin: 0;
+  padding: 245px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+
+  color: #fff;
+
+  background-image: url(../../../images/cover_background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .cover__text {
+    padding: 195px 0;
+  }
+}

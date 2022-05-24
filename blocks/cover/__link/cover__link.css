@@ -1,0 +1,16 @@
+.cover__link {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  z-index: 1;
+  transition: opacity 0.3s ease-in;
+  text-decoration: none;
+}
+
+.cover__link:hover {
+  opacity: 0.8;
+}
