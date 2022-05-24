@@ -1,4 +1,4 @@
-.intro_subtitle {
+.intro__subtitle {
   margin: 0;
   margin-bottom: 33px;
   font-size: 16px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 424px) {
-  .intro_subtitle {
+  .intro__subtitle {
     margin-bottom: 34px;
   }
 }
