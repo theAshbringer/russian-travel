@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 424px) {
   .header {
     font-size: 18px;
     line-height: 1.11;
