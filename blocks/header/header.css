@@ -11,7 +11,7 @@
   font-weight: normal;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .header {
     margin-bottom: 48px;
   }
