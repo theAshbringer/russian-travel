@@ -1,21 +1,7 @@
 .lead__image {
   margin-bottom: 8px;
   display: block;
+  object-fit: cover;
   width: 100%;
   height: auto;
-}
-
-@media screen and (min-width: 425px) and (max-width: 768px) {
-  .lead__image {
-    margin-left: -24px;
-    width: calc(100% + 2*24px);
-  }
-}
-
-@media screen and (max-width: 424px) {
-  .lead__image {
-    margin-left: -16px;
-    width: calc(100% + 2*16px);
-    height: auto;
-  }
 }
