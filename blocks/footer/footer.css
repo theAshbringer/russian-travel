@@ -6,6 +6,12 @@
   align-items: center;
 }
 
+@media screen and (min-width: 691px) and (max-width: 768px) {
+  .footer {
+    padding: 0 24px;
+  }
+}
+
 @media screen and (min-width: 471px) and (max-width: 690px) {
   .footer {
     flex-direction: column;

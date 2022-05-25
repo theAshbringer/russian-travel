@@ -11,8 +11,15 @@
   font-weight: normal;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .header {
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .header {
+    padding: 0 24px;
     margin-bottom: 48px;
   }
 }
