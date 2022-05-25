@@ -27,9 +27,5 @@
     margin-left: -16px;
     width: calc(100% + 2*16px);
     max-width: none;
-    background-image: url(../../images/cover_background_small.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
   }
 }

@@ -6,10 +6,6 @@
   align-items: center;
   text-align: center;
   color: #fff;
-  background-image: url(../../../images/cover_background.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   z-index: 2;
 }
 
