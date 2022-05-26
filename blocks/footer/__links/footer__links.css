@@ -5,13 +5,13 @@
   list-style: none;
 }
 
-@media screen and (min-width: 471px) and (max-width: 690px) {
+@media screen and (min-width: 521px) and (max-width: 690px) {
   .footer__links {
     margin-bottom: 15px;
   }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 520px) {
   .footer__links {
     flex-direction: column;
     margin-bottom: 48px;

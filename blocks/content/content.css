@@ -1,5 +1,6 @@
 .content {
-  margin-bottom: 92px;
+  margin: 0 0 92px;
+  max-width: 1184px;
   display: grid;
   grid-template-columns: minmax(200px, 1fr);
   gap: 92px;

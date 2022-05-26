@@ -1,5 +1,4 @@
 .place {
-  width: 100%;
   display: grid;
   grid-template-columns: minmax(440px, 460px) minmax(456px, 1fr);
   grid-template-areas:
@@ -15,7 +14,7 @@
   }
 }
 
-@media screen and (min-width: 560px) and (max-width: 768px) {
+@media screen and (min-width: 561px) and (max-width: 768px) {
   .place {
     grid-template-columns: minmax(170px, 340px) minmax(300px, 1fr);
     gap: 48px 28px;

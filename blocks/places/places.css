@@ -2,8 +2,23 @@
   margin: 0 auto;
   max-width: 984px;
   display: grid;
-  grid-template-columns: minmax(min-content, 1fr);
+  grid-template-columns: minmax(100px, 1fr);
   gap: 80px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .places {
+    gap: 80px;
+    margin-bottom: 2px;
+    padding: 0 48px;
+  }
+}
+
+@media screen and (min-width: 561px) and (max-width: 1023px) {
+  .places {
+    gap: 73px;
+    padding: 0 24px;
+  }
 }
 
 @media screen and (max-width: 560px) {

@@ -1,10 +1,11 @@
 .header__russia-pic {
+  display: block;
   width: 100%;
   height: auto;
 }
 
 @media screen and (max-width: 425px) {
   .header__russia-pic {
-    width: 80.73%;
+    width: 80.69%;
   }
 }

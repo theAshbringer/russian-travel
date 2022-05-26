@@ -5,3 +5,15 @@
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
+
+@media screen and (min-width: 369px) and (max-width: 768px) {
+  .lead__caption {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .lead__caption {
+    padding: 0 16px;
+  }
+}
