@@ -21,7 +21,6 @@
   .footer {
     padding: 0 24px;
     flex-direction: column;
-    padding-left: 16px;
   }
 }
 
@@ -29,5 +28,6 @@
   .footer {
     flex-direction: column;
     align-items: start;
+    padding-left: 16px;
   }
 }
