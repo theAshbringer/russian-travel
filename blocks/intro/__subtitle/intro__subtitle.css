@@ -1,12 +1,11 @@
-.intro_subtitle {
-  margin: 0;
-  margin-bottom: 33px;
+.intro__subtitle {
+  margin: 0 0 33px;
   font-size: 16px;
   line-height: 1.63;
 }
 
 @media screen and (max-width: 424px) {
-  .intro_subtitle {
+  .intro__subtitle {
     margin-bottom: 34px;
   }
 }
