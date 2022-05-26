@@ -4,14 +4,14 @@
   gap: 16px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1200px) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
   .photo-grid {
     gap: 14px;
     padding: 0 48px;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 1021px) {
   .photo-grid {
     gap: 16px;
     padding: 0 24px;

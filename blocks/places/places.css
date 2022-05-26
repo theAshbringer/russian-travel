@@ -6,7 +6,7 @@
   gap: 80px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1200px) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
   .places {
     gap: 50px;
     margin-bottom: 2px;
@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (min-width: 561px) and (max-width: 768px) {
+@media screen and (min-width: 561px) and (max-width: 1023px) {
   .places {
     padding: 0 24px;
   }
