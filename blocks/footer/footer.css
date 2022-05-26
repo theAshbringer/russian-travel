@@ -16,12 +16,12 @@
   .footer {
     padding: 0 24px;
     flex-direction: column;
+    padding-left: 16px;
   }
 }
 
 @media screen and (max-width: 520px) {
   .footer {
-    padding-left: 16px;
     flex-direction: column;
     align-items: start;
   }
