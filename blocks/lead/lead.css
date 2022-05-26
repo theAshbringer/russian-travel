@@ -7,13 +7,13 @@
   max-width: 984px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 791px) and (max-width: 1024px) {
   .lead {
     padding: 0 48px 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 790px) {
   .lead {
     padding: 0;
   }
