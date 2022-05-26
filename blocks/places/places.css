@@ -2,7 +2,7 @@
   margin: 0 auto;
   max-width: 984px;
   display: grid;
-  grid-template-columns: minmax(min-content, 1fr);
+  grid-template-columns: minmax(100px, 1fr);
   gap: 80px;
 }
 
@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 561px) and (max-width: 768px) {
   .places {
     padding: 0 24px;
   }

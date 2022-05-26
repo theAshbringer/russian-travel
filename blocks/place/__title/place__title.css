@@ -19,3 +19,15 @@
     line-height: 1.09;
   }
 }
+
+@media screen and (min-width: 321px) and (max-width: 560px) {
+  .place__title {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    padding: 0 16px;
+  }
+}
