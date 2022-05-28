@@ -28,7 +28,6 @@
 @media screen and (max-width: 424px) {
   .cover__link {
     padding: 10.405% 0;
-    background-image: url(../../../images/cover_background_small.png);
   }
 }
 
