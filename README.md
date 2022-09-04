@@ -1,18 +1,29 @@
-# Проект: Путешествие по России
+# Russian Travel (Путешествие по России)
 
-HTML + CSS (БЭМ)
+This project implements responsive layout using Grid, media queries, relative dimensions and other.
 
-**Описание**
 
-Проект о путешествии по России.
+## Technologies :hammer:
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-* Реализована адаптивная (резиновая) верстка, анимация ссылок по ховеру и анимированный прозрачный оверлей в секции "Байкал на собаках", который является ссылкой.
 
-**GH Pages**
+## Features :white_check_mark:
 
-* [Ссылка на страницу](https://theashbringer.github.io/russian-travel/)
+- Responsive layout
+- Project structure built according to BEM (Nested type)
+- Animations for links on hover
+- Animated dark semi-transparent overlay for banner
+- Grid gallery
 
-**Figma**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+## Get Started
 
+If you use VSCode, you can run this project via Live Server. Also it is available on <a href="https://theashbringer.github.io/russian-travel/" target="_blank">GH Pages</a>.
+
+## Things to improve :pencil:
+
+1. Open gallery pictures in popup
+2. Implement `<picture>` tag
+3. Deal with non-working language selection
+4. Introduce css variables for font-size, colors
