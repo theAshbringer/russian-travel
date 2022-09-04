@@ -11,6 +11,7 @@ This project implements responsive layout using Grid, media queries, relative di
 ## Features :white_check_mark:
 
 - Responsive layout
+- Vaid semantic HTML
 - Project structure built according to BEM (Nested type)
 - Animations for links on hover
 - Animated dark semi-transparent overlay for banner
