@@ -20,7 +20,11 @@ This project implements responsive layout using Grid, media queries, relative di
 
 ## Get Started
 
-If you use VSCode, you can run this project via Live Server. Also it is available on <a href="https://theashbringer.github.io/russian-travel/" target="_blank">GH Pages</a>.
+If you use VSCode, you can run this project via Live Server.
+
+
+## Demo
+Available on <a href="https://theashbringer.github.io/russian-travel/" target="_blank">GH Pages</a>.
 
 ## Things to improve :pencil:
 
